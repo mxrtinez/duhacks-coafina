@@ -1,58 +1,34 @@
-import team from "./Assets/team.gif";
-import digilogo from "./Assets/sponsorsLogos/digilogo.png";
-import devfolio from "./Assets/sponsorsLogos/devfolio.png";
-import filecoin from "./Assets/sponsorsLogos/filecoin.png";
-import polygon from "./Assets/sponsorsLogos/polygon.png";
-import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
-import alan from "./Assets/sponsorsLogos/alan.png";
-import koii from "./Assets/sponsorsLogos/koii.png";
-// import celo from "./Assets/sponsorsLogos/celo.png";
-import echo3d from "./Assets/sponsorsLogos/echo3d.png";
-import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
-import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
-import gfg from "./Assets/sponsorsLogos/gfg.png";
-import certopus from "./Assets/sponsorsLogos/certopus.png";
-import prayosys from "./Assets/sponsorsLogos/prayosys.png";
-import shivalika from "./Assets/sponsorsLogos/shivalika.JPG";
-import shivam from "./Assets/sponsorsLogos/shivam.JPG";
-import jay_maharaj from "./Assets/sponsorsLogos/jay_maharaj.jpeg";
-import jay_bhavani from "./Assets/sponsorsLogos/jay_bhavani.jpeg";
-import maruti from "./Assets/sponsorsLogos/maruti.jpeg";
-import replit from "./Assets/sponsorsLogos/replit.png";
-import taskade from "./Assets/sponsorsLogos/taskade.png";
-import interviewbuddy from './Assets/sponsorsLogos/ib.png'
-import digitalocean from './Assets/sponsorsLogos/do.png'
-import cuvette from './Assets/sponsorsLogos/cuvette.png'
-import postman from './Assets/sponsorsLogos/pm.svg'
+import headtop from "./Assets/fase2.png";
 
-import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
-import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
+// Sponsors
+import cedia from "./Assets/sponsorsLogos/cedia.png";
+import redclara from "./Assets/sponsorsLogos/redclara.png";
+import elbongo from "./Assets/sponsorsLogos/elbongo.png";
+import ssi from "./Assets/sponsorsLogos/ssi.png";
+import ccven from "./Assets/sponsorsLogos/ccven.png";
+import inait from "./Assets/sponsorsLogos/inait.png";
 
+// Team
 import me from "./Assets/teami/Vashishth_Patel.jpg";
-import dharmesh from "./Assets/teami/Dharmesh_Poriya.jpg";
 import Ryah from "./Assets/teami/Ryah.jpg";
-import nirali from "./Assets/teami/Nirali.jpeg";
-import smit from "./Assets/teami/smit.jpeg";
-import manav from "./Assets/teami/manav.jpg";
-// import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
-import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
-import ayush from "./Assets/teami/Ayush_Rudani.jpg";
-import aneri from "./Assets/teami/Aneri_Sonani.jpg";
-
-
-
-
-
-
-
+import ysa from "./Assets/teami/ysa.png";
+import reina from "./Assets/teami/reina.png";
+import jal from "./Assets/teami/jal.png";
+import estefania from "./Assets/teami/estefania.png";
+import dennis from "./Assets/teami/dennis.png";
+import arturo from "./Assets/teami/arturo.png";
+import ariana from "./Assets/teami/ariana.png";
+import alex from "./Assets/teami/alex.png";
+import iskya from "./Assets/teami/iskya.png";
+import oscar from "./Assets/teami/oscar.png";
 
 const TOP_SECTION = {
-  TITLE: "DUHacks",
-  Typed_effect: ["16 July - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
+  TITLE: "CoAfina",
+  Typed_effect: ["Del 7 al 9 de noviembre", "36 horas de creación", "¡Volvemos a sonar juntos!", "Retos de ciencia y educación"],
   SHORT_DESCRIPTION:
-    "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 1000+ students.",
-  IMG_SRC: team,
-  DISCORD_LINK: "https://discord.gg/cvHPEK7U3v",
+    " ¡Anímense a proponer y resolver retos científicos y educativos con datos abiertos!",
+  IMG_SRC: headtop,
+  DISCORD_LINK: "https://discord.gg/yWhUUvrhpj",
   JUDGES_FORM_LINK:
     "#Jugdes Form Link",
   HACKERS_REGISTRATION_FORM_LINK:
@@ -60,20 +36,20 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/cvHPEK7U3v",
-  linkedin: "https://www.linkedin.com/company/duhacks/",
-  twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
-  email: "mailto:contact@duhacks.tech",
-  mail: "contact@duhacks.tech"
+  instagram: "https://www.instagram.com/coafina_hackathon/",
+  discord: "https://discord.gg/yWhUUvrhpj",
+  linkedin: "https://www.linkedin.com/company/coafina",
+  twitter: "https://x.com/CoAfina/",
+  email: "mailto:coordinacion@laconga.redclara.net",
+  mail: "coordinacion@laconga.redclara.net"
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is DUHacks?",
+  TITLE: "¿Qué es CoAfina?",
   LONG_DESCRIPTION:
-    "It is a hybrid mode hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150+ students offline in the college with proper arrangement and 850+ students online.",
+    "CoAfina es un hackathon impulsado originalmente por el proyecto por LA-CoNGA physics y al que se han sumado diferentes organizaciones internacionales. El espacio busca que estudiantes universitarios en América Latina desarrollen soluciones en forma colaborativa para resolver problemas relacionados con temas científicos y educativos de impacto social. Seguimos los principios internacionales de Acceso Abierto. CoAfina se desarrolla en forma virtual en una semana de actividades divulgativas y de formación alrededor del dato abierto, la ciencia y las oportunidades tecnológicas. En los últimos tres días, luego de conformar equipos de distintos países y áreas del conocimiento, quienes participan se someten a una rica sesión de búsqueda de soluciones, con la adrenalina en alto, tensión, emoción y mucho aprendizaje científico, técnico, organizativo y multicultural.",
   LOGO_EFFECT: true,
-  LOGO: ""
+  LOGO: "./Assets/logo.png"
 };
 
 const FOOTER = {
@@ -96,8 +72,8 @@ const FOOTER = {
 };
 
 const calenderStartingDate = {
-  month: 7,
-  year: 2022
+  month: 18,
+  year: 2025
 }
 
 
@@ -203,83 +179,83 @@ const TeamInfo = [
   [
     // Array 1
     {
-      Name: "Vashishth Patel",
-      role: "Lead Organizer",
+      Name: "Alexander Martinez",
+      role: "Organización",
       github: "https://github.com/vasu-1",
       linkedin: "https://www.linkedin.com/in/vashishth-patel-312a52204/",
-      img: me
+      img: alex
     },
     {
-      Name: "Ayush Rudani",
-      role: "Organizer",
+      Name: "Ariana Moreno",
+      role: "Organización",
       github: "https://github.com/R-Ayush777",
       linkedin: "https://www.linkedin.com/in/ayush-rudani-7a3516204/",
-      img: ayush
+      img: ariana
     },
     {
-      Name: "Smit Padaliya",
-      role: "Organizer",
+      Name: "Arturo Sánchez",
+      role: "Organización",
       github: "https://github.com/Smit-05",
       linkedin: "https://www.linkedin.com/in/smit-padaliya-aa03291b8/",
-      img: smit
+      img: arturo
     }
   ],
   [
     // Array 2
     {
-      Name: "Zenisha Savaliya",
-      role: "Manager",
+      Name: "Dennis Cazar",
+      role: "Organización",
       github: "https://github.com/zenishasavaliya",
       linkedin: "https://www.linkedin.com/in/zenishasavaliya/",
-      img: zenisha
+      img: dennis
     },
     {
-      Name: "Parshwa Mehta",
-      role: "Manager & Content",
+      Name: "Estefanía Sánchez",
+      role: "Organización",
       github: "https://github.com/PARSHWA0510",
       linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
-      img: parshwa
+      img: estefania
     },
     {
-      Name: "Dharmesh Poriya",
-      role: "Manager",
+      Name: "Iskya García",
+      role: "Organización",
       github: "https://github.com/Dharmesh-Poriya07",
       linkedin: "https://www.linkedin.com/in/dharmesh-poriya/",
-      img: dharmesh
+      img: iskya
     },
   ],
   [
     // Array 2
     {
-      Name: "Aneri Sonani",
-      role: "Manager & Web",
+      Name: "José Antonio López",
+      role: "Organización",
       github: "https://github.com/AneriSonani09",
       linkedin: "https://www.linkedin.com/in/aneri-sonani-061b44204/",
-      img: aneri
+      img: jal
     },
     {
-      Name: "Nirali Darji",
-      role: "Design Lead",
+      Name: "Oscar Altuve",
+      role: "Organización",
       github: "#",
       linkedin: "https://www.linkedin.com/in/nirali-darji-1b766a209",
-      img: nirali
+      img: oscar
     },
     {
-      Name: "Dhruvi Sherathiya",
-      role: "Outreach Lead",
+      Name: "Reina Camacho",
+      role: "Organización",
       github: "https://github.com/DhruviSherathiya",
       linkedin: "https://www.linkedin.com/in/dhruvisherathiya",
-      img: dhruvi
+      img: reina
     },
   ],
   [
     // Array 2
     {
-      Name: "Manav Shah",
-      role: "Content Lead",
+      Name: "Ysabel Briceño",
+      role: "Organización",
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
-      img: manav
+      img: ysa
     }
   ]
 ];
@@ -288,22 +264,22 @@ const JudgesInfo = [
   [
     // Array 1
     {
-      Name: "Rehan",
-      role: "Organizer",
+      Name: "",
+      role: "",
       github: "",
       linkedin: "",
       img: me
     },
     {
-      Name: "Moon",
-      role: "Manager",
+      Name: "",
+      role: "",
       github: "",
       linkedin: "",
       img: Ryah
     },
     {
-      Name: "Ryah Garcia",
-      role: "Organizer",
+      Name: "",
+      role: "",
       github: "",
       linkedin: "",
       img: Ryah
@@ -312,15 +288,15 @@ const JudgesInfo = [
   [
     // Array 2
     {
-      Name: "Lyanola",
-      role: "Organizer",
+      Name: "",
+      role: "",
       github: "",
       linkedin: "",
       img: Ryah
     },
     {
-      Name: "Zoheb",
-      role: "Organizer",
+      Name: "",
+      role: "",
       github: "",
       linkedin: "",
       img: Ryah
@@ -329,96 +305,90 @@ const JudgesInfo = [
 ];
 
 const sponsorLogos = [
-  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+   [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
+   [{ src: ssi }, { src: ccven }, { src: cedia }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
 ];
 
 const titlesponsorLogos = [
-  [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" }], //Array 1
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+   [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
+   [{ src: ssi }, { src: ccven }, { src: cedia }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
 ];
 
-const goldsponsorLogos = [
+//const goldsponsorLogos = [
   // [  ], //Array 1
-  [{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+  //[{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
-];
+//];
 
-const silversponsorLogos = [
-  [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }], //Array 1
-  [{ src: alan, link: "https://alan.app/" }, { src: shivam, link: "#" }],
+////const silversponsorLogos = [
+//  [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }], //Array 1
+//  [{ src: alan, link: "https://alan.app/" }, { src: shivam, link: "#" }],
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
-];
+//];
 
-const bronzeponsorLogos = [
-  [{ src: replit, link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
-  [{ src: koii, link: "https://www.koii.network/" }, { src: postman, link: "https://postman.com/" }, {src: prayosys, link: "https://prayosys.com/"}],
-  [{src: shivalika, link: "#"}, {src: cuvette, link: "https://www.cuvette.tech/"}],
+//const bronzeponsorLogos = [
+//  [{ src: replit, link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
+//  [{ src: koii, link: "https://www.koii.network/" }, { src: postman, link: "https://postman.com/" }, {src: prayosys, link: "https://prayosys.com/"}],
+//  [{src: shivalika, link: "#"}, {src: cuvette, link: "https://www.cuvette.tech/"}],
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
-];
+//];
 
-const FoodLogos = [
-  [{src: maruti, link: "#"},{src: jay_bhavani, link: "#"},{src: jay_maharaj, link: "#"}],
-];
+//const FoodLogos = [
+//  [{src: maruti, link: "#"},{src: jay_bhavani, link: "#"},{src: jay_maharaj, link: "#"}],
+//];
 
-const designlogo = [
-  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }, { src: shutterbugs, link: "https://www.instagram.com/shutterbugs_ddu/?hl=en" }]
-];
-
+//const designlogo = [
+//  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }, { src: shutterbugs, link: "https://www.instagram.com/shutterbugs_ddu/?hl=en" }]
+//];
+//
 
 const frequentlyAskedQuestions = [
   [
     [
       {
-        label: "What is a hackathon?",
+        label: "¿Cómo puedo proponer un reto",
         content:
-          'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'
+          'Convocamos a personas vinculadas a empresas, organizaciones, redes profesionales, fundaciones, universidades, y grupos de investigación para que presenten problemas con impacto en América Latina y que puedan resolverse haciendo uso de datos abiertos, en los siguientes temas: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. Si tienes en mente retos con datos abiertos en los temas que convocamos, no dudes en contactarnos: es probable que un ambiente colaborativo y entusiasta te ayude a encontrar solución. Conoce los retos presentados en la edición 2024 e inspírate para proponer tu reto: '
       },
       {
-        label: "Who can attend?",
-        content: "DUHacks is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online."
+        label: "¿Cuándo será CoAfina",
+        content: "La tercera edición de CoAfina será del 7 al 9 de noviembre. Durante estos tres días los equipos participantes aceptarán resolver retos específicos. El evento será seguido en forma remota. Durante el encuentro ofreceremos nuestros contenidos síncronos para su visualización asíncrona, dado que la calidad del internet varía en la región. El último día, cada equipo presentará su solución a un grupo de jurados interdisciplinarios, seleccionados en América Latina."
       },
       {
-        label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general."
+        label: "Temas centrales",
+        content: "El hackathon CoAfina 2024 se centra en temas de ciencia y educación, con una agenda que convoca intereses relacionados con la nueva universidad: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. ¿Tienes ideas sobre inteligencia artificial en estos tópicos? Anímate a participar como persona retadora o como estudiante."
       },
       {
-        label: "How team formation works?",
-        content: "You can form a team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team."
+        label: "¿Qué encontrarás en CoAfina",
+        content: "En CoAfina podrás asistir a charlas sobre temas asociados a los retos, podrás realizar visitas virtuales a grandes laboratorios internacionales, te encontrarás con un mundo de posibilidades con datos abiertos y vivirás un ambiente multicultural y colaborativo."
       }
     ],
     [
       {
-        label: "How to register myself in the hackathon?",
-        content: "All you need is to register yourself on devfolio and join discord, we will guide you through everything there."
+        label: "¿Quiénes pueden participar?",
+        content: "En este espacio convocamos, en una primera etapa, a personas y organizaciones a proponer retos; y en una segunda etapa convocamos a estudiantes universitarios a resolver los retos planteados. Etapa 1: si en tu organización o grupo tienes ideas que puedan ser resueltas con datos abiertos, participa como retador/a. Hemos recibido retos relacionados con clima, enseñanza, ciudadanía y democracia, salud, turismo, entre algunos. Revisa los retos de CoAfina e inspírate. Necesitamos ideas como las tuyas. Etapa 2: si eres estudiante (pregrado, maestría, doctorado u otro programa) de alguna universidad con sede en América Latina ¡ya puedes unirte a CoAfina! Inscríbete y revisa si tus inquietudes y conocimientos te permiten dialogar con un equipo para resolver cualquiera de los retos planteados. Disponte a crear comunidad y marca en tu calendario una semana de adrenalina."
       },
       {
-        label: "I have more questions?",
-        content: "Reach us directly at (contact@duhacks.tech) we would happy to help you."
+        label: "¿Necesitas apoyo para participar?",
+        content: "CoAfina reconoce las condiciones desiguales de nuestra región para participar en este tipo de iniciativas: limitaciones de conexión, gastos operativos para estar disponible durante tres días en el hackathon, estudiantes madres o padres que no tienen con quién dejar a sus hijos al cuidado de otros mientras ocurre este espacio, u otras dificultades logísticas. Queremos que participes. Por esto, hemos dispuesto un fondo para subsidiar ítems que faciliten tu estancia virtual en CoAfina 2024. Si tienes algún problema (operativo, técnico, logístico), cuéntanos en el formulario y participa de nuestro subsidio."
       }
       ,
       {
-        label: "Can I participate as a individual?",
-        content: "No, Because our goal is collaborative learning, we encourage everyone to participate as a team of at least two people."
-      }
-      ,
-      {
-        label: "Will there be swag?",
-        content: "Yes, Participants and winners will receive swags, certificates, promo codes, and much more!"
+        label: "¿Necesitas equipo para participar?",
+        content: "No es necesario tener un equipo para participar en CoAfina 2024. Cada participante se inscribe por separado. Si ya tienes un equipo formado, pueden participar juntos. Sin embargo, si no tienes un equipo, ¡no te preocupes! Al inicio del hackathon, se crearán espacios para que puedas conformar un equipo con otras personas. Esta es una excelente oportunidad para conocer a otros estudiantes de toda América Latina y colaborar en la resolución de retos interesantes. ¡Inscríbete y prepárate para una experiencia enriquecedora y colaborativa!"
       }
     ]
   ],
@@ -433,14 +403,14 @@ export {
   Prizeinfo,
   sponsorLogos,
   titlesponsorLogos,
-  goldsponsorLogos,
-  silversponsorLogos,
-  bronzeponsorLogos,
+  //goldsponsorLogos,
+  //silversponsorLogos,
+  //bronzeponsorLogos,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
   calenderStartingDate,
-  designlogo,
-  FoodLogos
+  //designlogo,
+  //FoodLogos
 };

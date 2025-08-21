@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
-import mainlogo from "./LOGO.png";
+import mainlogo from "./logo.png";
 import styled from "styled-components";
 import "./styles.scss";
 
@@ -98,27 +98,27 @@ const NAVBAR = () => {
               </div>
               <li className="liw list--general">
                 <Link to={`#about`}>
-                  <span className="links">About </span>{" "}
+                  <span className="links">CoAfina</span>{" "}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#themes`}>
-                  <span className="links">Themes </span>{" "}
+                  <span className="links">Temáticas</span>{" "}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#prizes`}>
-                  <span className="links">Prizes </span>{" "}
+                  <span className="links">Premios</span>{" "}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#sponsors`}>
-                  <span className="links">Sponsors </span>{" "}
+                  <span className="links">Patrocinadores</span>{" "}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#teams`}>
-                  <span className="links">Team </span>{" "}
+                  <span className="links">Equipo</span>{" "}
                 </Link>
               </li>
              <li className="liw list--general">

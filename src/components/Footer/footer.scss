@@ -9,8 +9,8 @@ footer{
   font-weight: bold;
 }
 .imgfooter{
-  width: 60px;
-  height: 50px;
+  width: 200px;
+  /*height: 50px;*/
 }
 .imgfooterdsc{
   width: auto;
@@ -190,7 +190,7 @@ footer .bottom-details .bottom_text{
 
 @media (max-width: 440px){
 .imgfooterdsc{
-  width: 110%;
+  width: 100%;
   height: 100%;
 }
 }

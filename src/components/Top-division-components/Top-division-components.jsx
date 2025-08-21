@@ -62,7 +62,7 @@ function Myinfo() {
       ></div>
       &nbsp;&nbsp;
       <a
-        href="https://discord.gg/cvHPEK7U3v"
+        href="https://discord.gg/yWhUUvrhpj"
         rel="noreferrer"
         target="_blank"
       >
@@ -72,7 +72,7 @@ function Myinfo() {
         </button>
       </a>
       <br /><br /><br />
-      <a href="https://duhacks.devfolio.co/" target="_blank"><button>Learn More</button></a>
+      {/*<a href="https://duhacks.devfolio.co/" target="_blank"><button>Learn More</button></a>*/}
     </div>
 
 

@@ -2,7 +2,7 @@
 nav {
   list-style-type: none;
   height: 11vh;
-  font-size: 1.3rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   position: fixed;
@@ -80,8 +80,8 @@ a:link {
 }
 
 .percentlogomain{
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
 }
 
 @media (max-width: 712px) {

@@ -14,14 +14,10 @@ import { Sponsor, SponsorsHead } from "../Sponsors/sponsors.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer";
 import { Member } from "../team/team.jsx";
-import koii from "../../Module/Assets/sponsorsLogos/koii.png";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
 import ThemeType from "../Themes/theme.jsx";
 import TimeLine from "../Timeline/Timeline.jsx";
-import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
-import polygon from "../../Module/Assets/sponsorsLogos/polygon.png";
-import alan from "../../Module/Assets/sponsorsLogos/alan.png";
 
 import {
   TOP_SECTION,
@@ -187,32 +183,32 @@ export default function HomePage(props) {
 
 
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prizes" />
+          <PrizeHeading type="Premios" />
         </Row>
         <div class="row1-container">
 
           <div class="box red">
-            <h2>Overall First</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 7000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
+            <h2>Primer Lugar</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png" alt="" />
+            <h4><b>Premio</b>: USD 700 <br />Swags & Promo Codes{/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a>*/}</h4>
           </div>
 
           <div class="box box-down cyan">
-            <h2>Overall Second</h2><img className="imgright" src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 3000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes"zz>Load More</a></h4>
+            <h2>Segundo Lugar</h2><img className="imgright" src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png" alt="" />
+            <h4><b>Premio</b>: USD 500 <br />Swags & Promo Codes{/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes"zz>Load More</a>*/}</h4>
           </div>
 
           <div class="box box-down blue">
-            <h2>Overall Third</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 2000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
+            <h2>Tercer Lugar</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png" alt="" />
+            <h4><b>Premio</b>: USD 350 <br />Swags & Promo Codes{/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a>*/}</h4>
           </div>
         </div>
-        {/*      <div class="row2-container">
+      <div class="row2-container">
         <div class="box orange">
-          <h2>Karma</h2>
-          <p>Regularly evaluates our talent to ensure quality</p>
-          <img class="imgright" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="" />
+          <h2>Mención especial</h2><img class="imgright" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="" />
+          <p><b>Premio</b>: USD 150 <br /> Regularly evaluates our.</p>
         </div>
-      </div>*/}
+      </div>
+      {/* 
         <div class="row1-container margfromsponsor">
           <div class="box box-down color2">
             <h2>Best Women Team</h2><img class="imgright" src="https://img.icons8.com/cute-clipart/64/000000/granny-lesbian.png" alt="" />
@@ -228,18 +224,16 @@ export default function HomePage(props) {
             <h2>All Participants</h2><img class="imgright" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-prizes-circus-flaticons-lineal-color-flat-icons.png" alt="" />
             <h4><b>Participation Certificate</b><br />Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
-        </div>
+        </div>{/*     */}
 
-         
-
-
+        {/*Theme start
         <center>
 
           <div class="containertrack">
             <div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">
-                  {/*<h1>Polygon</h1>*/}
+                  <h1>Polygon</h1>
                   <img className="imgtrack" src={polygon} />
                   <br /><br />
                   <b><lu>
@@ -274,7 +268,7 @@ export default function HomePage(props) {
                     </lu>
 
                   </b>
-                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
+                  <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
                 </div>
               </div>
             </div>
@@ -301,7 +295,7 @@ export default function HomePage(props) {
                     </lu>
 
                   </b>
-                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
+                  <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
                 </div>
               </div>
             </div>
@@ -309,7 +303,7 @@ export default function HomePage(props) {
             <div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">
-                  {/*<h1>Filecoin</h1>*/}
+                  <h1>Filecoin</h1>
                   <img className="imgtrack" src={filecoin} />
                   <br /><br />
                   <b><lu>
@@ -331,9 +325,9 @@ export default function HomePage(props) {
                   <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0">Read More</a>
                 </div>
               </div>
-            </div>*/}
+            </div>
           </div>
-        </center>
+        </center>*/}
         {/*Theme end*/}
 
         {/* <Birds top="100vh" left="0vh" type="" /> */}
@@ -352,10 +346,11 @@ export default function HomePage(props) {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          <h1 className="">Title Sponsors</h1>
+          <h1 className=""></h1>
           <br />
           {titlesponsorLogos.map(SponsorGroup)}
           <br /><br />
+          {/* *******
           <h1 className="">Gold Sponsors</h1>
           <br />
           {goldsponsorLogos.map(SponsorGroup)}
@@ -368,7 +363,9 @@ export default function HomePage(props) {
           <br />
           {bronzeponsorLogos.map(SponsorGroup)}
           <br /><br />
+          */}
           {/* <SponsorUS /> */}<br /><br />
+          {/* *******
           <h1 className="">Design & Media Partners</h1>
           <br />
           {designlogo.map(SponsorGroup)}
@@ -376,6 +373,7 @@ export default function HomePage(props) {
           <h1 className="">Food Sponsors</h1>
           <br />
           {FoodLogos.map(SponsorGroup)}
+          */}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
