@@ -121,9 +121,14 @@ const NAVBAR = () => {
                   <span className="links">Equipo</span>{" "}
                 </Link>
               </li>
-             <li className="liw list--general">
+              <li className="liw list--general">
                 <Link to={`#faqs`}>
                   <span className="links">FAQ </span>{" "}
+                </Link>
+              </li>
+             <li className="liw list--general">
+                <Link to={`#faqs`}>
+                  <span className="links">Archivo</span>{" "}
                 </Link>
               </li>
               <img

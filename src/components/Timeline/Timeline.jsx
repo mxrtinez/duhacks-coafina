@@ -25,7 +25,7 @@ function TimeLine() {
         <i class="icon fas fa-star"></i>
         <div class="details">
           <span class="title">Cierre del llamado a retos</span>
-          <span>14th Jul 2022</span>
+          <span>19 de septiembre</span>
         </div>
         {/*<p  className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
        */}
@@ -35,10 +35,10 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
-          <span class="title">Inicia el llamado a retos</span>
-          <span>16th July 2022</span>
+          <span class="title">Inicia el llamado a estudiantes</span>
+          <span>20 de septiembre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:15 AM onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Descripción.</p>
         
       </section>
     </div>
@@ -46,20 +46,20 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
-          <span class="title">Cierra el llamado a participantes</span>
-          <span>16th July 2022</span>
+          <span class="title">Cierra el llamado a estudiantes</span>
+          <span>20 de octubre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon coding period will start from 10:30 AM onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Descripción.</p>
       </section>
     </div>
     <div class="row row-1">
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Conferencia aplicaciones</span>
-          <span>16th July 2022</span>
+          <span class="title">Workshop</span>
+          <span>25 de octubre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Session on APIs 101 using Postman on 4:00 PM Onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Descripción.</p>
         
       </section>
     </div>
@@ -68,9 +68,9 @@ function TimeLine() {
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
           <span class="title">Integración pre hackathon</span>
-          <span>16th July 2022</span>
+          <span>8 de noviembre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Session on APIs 101 using Postman on 4:00 PM Onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Descripción.</p>
         
       </section>
     </div>
@@ -79,9 +79,9 @@ function TimeLine() {
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
           <span class="title">Inicio del Hackathon</span>
-          <span>16th July 2022</span>
+          <span>7 de noviembre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Session on Complete Interview Preperation by GeeksForGeeks on 11.30 AM Onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Descripción.</p>
         
       </section>
     </div>
@@ -89,10 +89,10 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Conferencia magistral</span>
-          <span>16th July 2022</span>
+          <span class="title">Conferencia 1</span>
+          <span>8 de noviembre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Session on APIs 101 using Postman on 4:00 PM Onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Descripción.</p>
         
       </section>
     </div>
@@ -101,9 +101,9 @@ function TimeLine() {
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
           <span class="title">Visita Altlas</span>
-          <span>16th July 2022</span>
+          <span>8 de noviembre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Session on Building Voice Ai Powered App in React JS with Alan Ai on 06:30 PM Onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Descripción.</p>
         
       </section>
     </div>
@@ -112,9 +112,9 @@ function TimeLine() {
         <i class="icon fas fa-globe"></i>
         <div class="details">
           <span class="title">Finaliza el hackathon</span>
-          <span>17th July 2022</span>
+          <span>9 de noviembre</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon coding period will end on 10:30 PM.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Entrega de productos: 12:00 (UTC -5)</p>
         
       </section>
     </div>

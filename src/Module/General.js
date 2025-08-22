@@ -47,7 +47,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "¿Qué es CoAfina?",
   LONG_DESCRIPTION:
-    "CoAfina es un hackathon impulsado originalmente por el proyecto por LA-CoNGA physics y al que se han sumado diferentes organizaciones internacionales. El espacio busca que estudiantes universitarios en América Latina desarrollen soluciones en forma colaborativa para resolver problemas relacionados con temas científicos y educativos de impacto social. Seguimos los principios internacionales de Acceso Abierto. CoAfina se desarrolla en forma virtual en una semana de actividades divulgativas y de formación alrededor del dato abierto, la ciencia y las oportunidades tecnológicas. En los últimos tres días, luego de conformar equipos de distintos países y áreas del conocimiento, quienes participan se someten a una rica sesión de búsqueda de soluciones, con la adrenalina en alto, tensión, emoción y mucho aprendizaje científico, técnico, organizativo y multicultural.",
+    "CoAfina es un hackathon virtual que reúne a estudiantes universitarios de América Latina para crear, en equipos internacionales y multidisciplinarios, soluciones colaborativas a retos científicos y educativos de impacto social. Inspirado en los principios de Acceso Abierto, combina actividades de formación y divulgación con jornadas intensas de innovación y aprendizaje multicultural.",
   LOGO_EFFECT: true,
   LOGO: "./Assets/logo.png"
 };

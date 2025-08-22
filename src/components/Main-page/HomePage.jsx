@@ -167,21 +167,18 @@ export default function HomePage(props) {
           </Col>
         </Row>
 
-
         {/*Theme Section*/}
         <Row className="prizesection non-coding" id="themes">
-          <PrizeHeading type="Hackathon Themes" />
+          <PrizeHeading type="Temáticas del Hackathon" />
           <ThemeType />
         </Row>
 
          {/*TimeLine Section*/}
          <Row className="timeline" id="timeline">
-        <PrizeHeading type="Hackathon TimeLine" />
+        <PrizeHeading type="Calendario CoAfina"/>
           <TimeLine />
         </Row>
    
-
-
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Premios" />
         </Row>
@@ -384,7 +381,7 @@ export default function HomePage(props) {
 
         {JudgesInfo.map(TeamMembers)} */}
 
-        <h1 id="teams">Our Team</h1>
+        <h1 id="teams">Nuestro Equipo</h1>
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
