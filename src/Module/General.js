@@ -26,7 +26,7 @@ const TOP_SECTION = {
   TITLE: "CoAfina",
   Typed_effect: ["Del 7 al 9 de noviembre", "36 horas de creación", "¡Volvemos a sonar juntos!", "Retos de ciencia y educación"],
   SHORT_DESCRIPTION:
-    " ¡Anímense a proponer y resolver retos científicos y educativos con datos abiertos!",
+    "¡Convirtamos datos abiertos en soluciones brillantes! Anímense a proponer y resolver retos científicos y educativos que transformen realidades.",
   IMG_SRC: headtop,
   DISCORD_LINK: "https://discord.gg/yWhUUvrhpj",
   JUDGES_FORM_LINK:
@@ -47,7 +47,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "¿Qué es CoAfina?",
   LONG_DESCRIPTION:
-    "CoAfina es un hackathon virtual que reúne a estudiantes universitarios de América Latina para crear, en equipos internacionales y multidisciplinarios, soluciones colaborativas a retos científicos y educativos de impacto social. Inspirado en los principios de Acceso Abierto, combina actividades de formación y divulgación con jornadas intensas de innovación y aprendizaje multicultural.",
+    "CoAfina es un hackathon virtual que reúne a estudiantes universitarios de América Latina para crear, en equipos multidisciplinarios, soluciones colaborativas a retos científicos y educativos de impacto social. Inspirado en los principios de Acceso Abierto, combina actividades de formación y divulgación con jornadas intensas de innovación y aprendizaje multicultural.",
   LOGO_EFFECT: true,
   LOGO: "./Assets/logo.png"
 };
@@ -181,22 +181,22 @@ const TeamInfo = [
     {
       Name: "Alexander Martinez",
       role: "Organización",
-      github: "https://github.com/vasu-1",
-      linkedin: "https://www.linkedin.com/in/vashishth-patel-312a52204/",
+      github: "",
+      linkedin: "",
       img: alex
     },
     {
       Name: "Ariana Moreno",
       role: "Organización",
-      github: "https://github.com/R-Ayush777",
-      linkedin: "https://www.linkedin.com/in/ayush-rudani-7a3516204/",
+      github: "",
+      linkedin: "",
       img: ariana
     },
     {
       Name: "Arturo Sánchez",
       role: "Organización",
-      github: "https://github.com/Smit-05",
-      linkedin: "https://www.linkedin.com/in/smit-padaliya-aa03291b8/",
+      github: "",
+      linkedin: "",
       img: arturo
     }
   ],
@@ -205,22 +205,22 @@ const TeamInfo = [
     {
       Name: "Dennis Cazar",
       role: "Organización",
-      github: "https://github.com/zenishasavaliya",
-      linkedin: "https://www.linkedin.com/in/zenishasavaliya/",
+      github: "",
+      linkedin: "",
       img: dennis
     },
     {
       Name: "Estefanía Sánchez",
       role: "Organización",
-      github: "https://github.com/PARSHWA0510",
-      linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
+      github: "",
+      linkedin: "",
       img: estefania
     },
     {
       Name: "Iskya García",
       role: "Organización",
-      github: "https://github.com/Dharmesh-Poriya07",
-      linkedin: "https://www.linkedin.com/in/dharmesh-poriya/",
+      github: "",
+      linkedin: "",
       img: iskya
     },
   ],
@@ -229,22 +229,22 @@ const TeamInfo = [
     {
       Name: "José Antonio López",
       role: "Organización",
-      github: "https://github.com/AneriSonani09",
-      linkedin: "https://www.linkedin.com/in/aneri-sonani-061b44204/",
+      github: "",
+      linkedin: "",
       img: jal
     },
     {
       Name: "Oscar Altuve",
       role: "Organización",
-      github: "#",
-      linkedin: "https://www.linkedin.com/in/nirali-darji-1b766a209",
+      github: "",
+      linkedin: "",
       img: oscar
     },
     {
       Name: "Reina Camacho",
       role: "Organización",
-      github: "https://github.com/DhruviSherathiya",
-      linkedin: "https://www.linkedin.com/in/dhruvisherathiya",
+      github: "",
+      linkedin: "",
       img: reina
     },
   ],
@@ -253,8 +253,8 @@ const TeamInfo = [
     {
       Name: "Ysabel Briceño",
       role: "Organización",
-      github: "https://github.com/manavshah25",
-      linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
+      github: "",
+      linkedin: "",
       img: ysa
     }
   ]
@@ -361,11 +361,11 @@ const frequentlyAskedQuestions = [
       {
         label: "¿Cómo puedo proponer un reto",
         content:
-          'Convocamos a personas vinculadas a empresas, organizaciones, redes profesionales, fundaciones, universidades, y grupos de investigación para que presenten problemas con impacto en América Latina y que puedan resolverse haciendo uso de datos abiertos, en los siguientes temas: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. Si tienes en mente retos con datos abiertos en los temas que convocamos, no dudes en contactarnos: es probable que un ambiente colaborativo y entusiasta te ayude a encontrar solución. Conoce los retos presentados en la edición 2024 e inspírate para proponer tu reto: '
+          'Convocamos a personas vinculadas a empresas, organizaciones, redes profesionales, fundaciones, universidades, y grupos de investigación para que presenten problemas con impacto en América Latina y que puedan resolverse haciendo uso de datos abiertos, en los siguientes temas: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. Si tienes en mente retos con datos abiertos en los temas que convocamos, no dudes en contactarnos: es probable que un ambiente colaborativo y entusiasta te ayude a encontrar solución. Conoce los retos presentados en la edición 2024 e inspírate para proponer tu reto: https://laconga.redclara.net/hackathon/retos'
       },
       {
         label: "¿Cuándo será CoAfina",
-        content: "La tercera edición de CoAfina será del 7 al 9 de noviembre. Durante estos tres días los equipos participantes aceptarán resolver retos específicos. El evento será seguido en forma remota. Durante el encuentro ofreceremos nuestros contenidos síncronos para su visualización asíncrona, dado que la calidad del internet varía en la región. El último día, cada equipo presentará su solución a un grupo de jurados interdisciplinarios, seleccionados en América Latina."
+        content: "La tercera edición de CoAfina será del 7 al 9 de noviembre. Durante estos tres días los equipos participantes aceptarán resolver retos específicos. El evento será de forma remota. Durante el encuentro ofreceremos nuestros contenidos síncronos para su visualización asíncrona, dado que la calidad del internet varía en la región. El último día, cada equipo presentará su solución a un grupo de jurados interdisciplinarios."
       },
       {
         label: "Temas centrales",
@@ -379,11 +379,11 @@ const frequentlyAskedQuestions = [
     [
       {
         label: "¿Quiénes pueden participar?",
-        content: "En este espacio convocamos, en una primera etapa, a personas y organizaciones a proponer retos; y en una segunda etapa convocamos a estudiantes universitarios a resolver los retos planteados. Etapa 1: si en tu organización o grupo tienes ideas que puedan ser resueltas con datos abiertos, participa como retador/a. Hemos recibido retos relacionados con clima, enseñanza, ciudadanía y democracia, salud, turismo, entre algunos. Revisa los retos de CoAfina e inspírate. Necesitamos ideas como las tuyas. Etapa 2: si eres estudiante (pregrado, maestría, doctorado u otro programa) de alguna universidad con sede en América Latina ¡ya puedes unirte a CoAfina! Inscríbete y revisa si tus inquietudes y conocimientos te permiten dialogar con un equipo para resolver cualquiera de los retos planteados. Disponte a crear comunidad y marca en tu calendario una semana de adrenalina."
+        content: "En este espacio convocamos, en una primera etapa, a personas y organizaciones a proponer retos; y en una segunda etapa convocamos a estudiantes universitarios a resolver los retos planteados. Etapa 1: si en tu organización o grupo tienes ideas que puedan ser resueltas con datos abiertos, participa como retador/a. Hemos recibido retos relacionados con clima, enseñanza, ciudadanía y democracia, salud, turismo, entre algunos. Etapa 2: si eres estudiante (pregrado, maestría, doctorado u otro programa) de alguna universidad con sede en América Latina ¡ya puedes unirte a CoAfina! Espera la convocatoria y revisa si tus inquietudes y conocimientos te permiten formar un equipo para resolver cualquiera de los retos planteados. Disponte a crear comunidad y marca en tu calendario una semana de adrenalina."
       },
       {
         label: "¿Necesitas apoyo para participar?",
-        content: "CoAfina reconoce las condiciones desiguales de nuestra región para participar en este tipo de iniciativas: limitaciones de conexión, gastos operativos para estar disponible durante tres días en el hackathon, estudiantes madres o padres que no tienen con quién dejar a sus hijos al cuidado de otros mientras ocurre este espacio, u otras dificultades logísticas. Queremos que participes. Por esto, hemos dispuesto un fondo para subsidiar ítems que faciliten tu estancia virtual en CoAfina 2024. Si tienes algún problema (operativo, técnico, logístico), cuéntanos en el formulario y participa de nuestro subsidio."
+        content: "CoAfina reconoce las condiciones desiguales de nuestra región para participar en este tipo de iniciativas: limitaciones de conexión, gastos operativos para estar disponible durante tres días en el hackathon, estudiantes madres o padres que no tienen con quién dejar a sus hijos al cuidado de otros mientras ocurre este espacio, u otras dificultades logísticas. Queremos que participes. Por esto, hemos dispuesto un fondo para subsidiar ítems que faciliten tu estancia virtual en CoAfina 2025. Si tienes algún problema (operativo, técnico, logístico), cuéntanos en el formulario y participa de nuestro subsidio."
       }
       ,
       {

@@ -102,6 +102,11 @@ const NAVBAR = () => {
                 </Link>
               </li>
               <li className="liw list--general">
+                <Link to={`#faqs`}>
+                  <span className="links">FAQ </span>{" "}
+                </Link>
+              </li>
+              <li className="liw list--general">
                 <Link to={`#themes`}>
                   <span className="links">Temáticas</span>{" "}
                 </Link>
@@ -113,17 +118,12 @@ const NAVBAR = () => {
               </li>
               <li className="liw list--general">
                 <Link to={`#sponsors`}>
-                  <span className="links">Patrocinadores</span>{" "}
+                  <span className="links">Sponsors</span>{" "}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#teams`}>
                   <span className="links">Equipo</span>{" "}
-                </Link>
-              </li>
-              <li className="liw list--general">
-                <Link to={`#faqs`}>
-                  <span className="links">FAQ </span>{" "}
                 </Link>
               </li>
              <li className="liw list--general">

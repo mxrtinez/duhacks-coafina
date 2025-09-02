@@ -4,6 +4,7 @@ import MytypedComponent from "../typing-effect/typing.js";
 
 import { TOP_SECTION } from "../../Module/General";
 
+
 function Btn(props) {
   return (
     <div
@@ -39,7 +40,8 @@ function Myinfo() {
         class="linkclass"
         target="_blank"
       >
-*/}{/*        <button class="dev-button">
+*/}
+{/*        <button class="dev-button">
           <svg
             class="dev-logo"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,13 +55,15 @@ function Myinfo() {
         </button>
 </a>
       */}
-
+      {/* 
       <div
         class="apply-button"
         data-hackathon-slug="duhacks"
         data-button-theme="light"
       // style="height: 44px; width: 312px"
       ></div>
+      */}
+
       &nbsp;&nbsp;
       <a
         href="https://discord.gg/yWhUUvrhpj"

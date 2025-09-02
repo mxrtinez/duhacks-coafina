@@ -28,7 +28,7 @@ nav {
   margin-top: -0vw;
 }
  .padd{
-   padding-left: 35vw;
+   padding-left: 10vw;
  }
 .s-open,
 .s-close {
@@ -38,7 +38,7 @@ nav {
   width: 30%;
 }
 .ulnav {
-  width: 100vw;
+  width: 80vw;
   margin-top: -2%;
   position: relative;
   display: flex;
@@ -51,7 +51,7 @@ nav {
   padding: 20px;
 }
 .headerlogo_container{
-  margin-right: 5rem;
+  margin-right: 0.1rem;
 }
 .nav_bar .ulnav .liw {
   display: inline-block;
@@ -98,7 +98,7 @@ a:link {
     pointer-events: none;
   }
   .header_logo {
-    padding: 0vw 10vw 10vw 23vw;
+    padding: 0vw 1vw 1vw 1vw;
   }
   .ulnav {
     flex-direction: column;

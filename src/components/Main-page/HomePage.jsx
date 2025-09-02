@@ -156,6 +156,7 @@ export default function HomePage(props) {
           </Row>*/}
         </Container>
       </div>
+
       <Container fluid>
         {/* Logo section  */}
         <Row className=" logoSection" id="about">
@@ -166,6 +167,13 @@ export default function HomePage(props) {
             <Logo />
           </Col>
         </Row>
+
+        <h1 id="faqs">FAQs</h1>
+        {/* ********Frequently asked Questions here ***** */}
+        <div className="Myfaqs">
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          {/* ********Frequently asked Questions ending here ***** */}
+        </div>
 
         {/*Theme Section*/}
         <Row className="prizesection non-coding" id="themes">
@@ -186,23 +194,23 @@ export default function HomePage(props) {
 
           <div class="box red">
             <h2>Primer Lugar</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png" alt="" />
-            <h4><b>Premio</b>: USD 700 <br />Swags & Promo Codes{/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a>*/}</h4>
+            <h4><b>Premio</b>: USD 700 <br /> {/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a>*/}</h4>
           </div>
 
           <div class="box box-down cyan">
             <h2>Segundo Lugar</h2><img className="imgright" src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png" alt="" />
-            <h4><b>Premio</b>: USD 500 <br />Swags & Promo Codes{/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes"zz>Load More</a>*/}</h4>
+            <h4><b>Premio</b>: USD 500 <br /> {/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes"zz>Load More</a>*/}</h4>
           </div>
 
           <div class="box box-down blue">
             <h2>Tercer Lugar</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png" alt="" />
-            <h4><b>Premio</b>: USD 350 <br />Swags & Promo Codes{/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a>*/}</h4>
+            <h4><b>Premio</b>: USD 350 <br /> {/*<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a>*/}</h4>
           </div>
         </div>
       <div class="row2-container">
         <div class="box orange">
           <h2>Mención especial</h2><img class="imgright" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="" />
-          <p><b>Premio</b>: USD 150 <br /> Regularly evaluates our.</p>
+          <p><b>Premio</b>: USD 150 <br /> </p>
         </div>
       </div>
       {/* 
@@ -391,24 +399,17 @@ export default function HomePage(props) {
         )} */}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
-
-        {/* ********Team ending here ***** */}
-        <br />
-        <h1 id="faqs">FAQs</h1>
-        {/* ********Frequently asked Questions here ***** */}
-        <div className="Myfaqs">
-          {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          {/* ********Frequently asked Questions ending here ***** */}
-        </div>
       </Container>
-      <br />
+      
+      {/* 
       <center><div
         class="apply-button"
         data-hackathon-slug="duhacks"
         data-button-theme="light"
       // style="height: 44px; width: 312px"
       ></div></center>
-
+      */}
+      
       <Footer />
       <div class="backtotop" id="back-to-up"><a onClick={scrollToTop}><p><i class="fa-solid fa-arrow-up"></i></p></a></div>
     </div >
