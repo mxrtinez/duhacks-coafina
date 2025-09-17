@@ -23,7 +23,7 @@ import iskya from "./Assets/teami/iskya.png";
 import oscar from "./Assets/teami/oscar.png";
 
 const TOP_SECTION = {
-  TITLE: "CoAfina",
+  TITLE: "CoAfina 2025",
   Typed_effect: ["Del 7 al 9 de noviembre", "36 horas de creación", "¡Volvemos a sonar juntos!", "Retos de ciencia y educación"],
   SHORT_DESCRIPTION:
     "¡Convirtamos datos abiertos en soluciones brillantes! Anímense a proponer y resolver retos científicos y educativos que transformen realidades.",
@@ -365,11 +365,11 @@ const frequentlyAskedQuestions = [
       },
       {
         label: "¿Cuándo será CoAfina",
-        content: "La tercera edición de CoAfina será del 7 al 9 de noviembre. Durante estos tres días los equipos participantes aceptarán resolver retos específicos. El evento será de forma remota. Durante el encuentro ofreceremos nuestros contenidos síncronos para su visualización asíncrona, dado que la calidad del internet varía en la región. El último día, cada equipo presentará su solución a un grupo de jurados interdisciplinarios."
+        content: "La cuarta edición de CoAfina será del 7 al 9 de noviembre. Durante estos tres días los equipos participantes aceptarán resolver retos específicos. El evento será de forma remota. Durante el encuentro ofreceremos nuestros contenidos síncronos para su visualización asíncrona, dado que la calidad del internet varía en la región. El último día, cada equipo presentará su solución a un grupo de jurados interdisciplinarios."
       },
       {
         label: "Temas centrales",
-        content: "El hackathon CoAfina 2024 se centra en temas de ciencia y educación, con una agenda que convoca intereses relacionados con la nueva universidad: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. ¿Tienes ideas sobre inteligencia artificial en estos tópicos? Anímate a participar como persona retadora o como estudiante."
+        content: "El hackathon CoAfina 2025 se centra en temas de ciencia y educación, con una agenda que convoca intereses relacionados con la nueva universidad: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. ¿Tienes ideas sobre inteligencia artificial en estos tópicos? Anímate a participar como persona retadora o como estudiante."
       },
       {
         label: "¿Qué encontrarás en CoAfina",
@@ -379,7 +379,7 @@ const frequentlyAskedQuestions = [
     [
       {
         label: "¿Quiénes pueden participar?",
-        content: "En este espacio convocamos, en una primera etapa, a personas y organizaciones a proponer retos; y en una segunda etapa convocamos a estudiantes universitarios a resolver los retos planteados. Etapa 1: si en tu organización o grupo tienes ideas que puedan ser resueltas con datos abiertos, participa como retador/a. Hemos recibido retos relacionados con clima, enseñanza, ciudadanía y democracia, salud, turismo, entre algunos. Etapa 2: si eres estudiante (pregrado, maestría, doctorado u otro programa) de alguna universidad con sede en América Latina ¡ya puedes unirte a CoAfina! Espera la convocatoria y revisa si tus inquietudes y conocimientos te permiten formar un equipo para resolver cualquiera de los retos planteados. Disponte a crear comunidad y marca en tu calendario una semana de adrenalina."
+        content: "En este espacio convocamos, en una primera fase, a personas y organizaciones a proponer retos; y en una segunda fase convocamos a estudiantes universitarios a resolver los retos planteados. Fase 1: si en tu organización o grupo tienes ideas que puedan ser resueltas con datos abiertos, participa como retador/a. Hemos recibido retos relacionados con clima, enseñanza, ciudadanía y democracia, salud, turismo, entre algunos. Fase 2: si eres estudiante (pregrado, maestría, doctorado u otro programa) de alguna universidad con sede en América Latina ¡ya puedes unirte a CoAfina! Espera la convocatoria y revisa si tus inquietudes y conocimientos te permiten formar un equipo para resolver cualquiera de los retos planteados. Disponte a crear comunidad y marca en tu calendario una semana de adrenalina."
       },
       {
         label: "¿Necesitas apoyo para participar?",
@@ -388,7 +388,7 @@ const frequentlyAskedQuestions = [
       ,
       {
         label: "¿Necesitas equipo para participar?",
-        content: "No es necesario tener un equipo para participar en CoAfina 2024. Cada participante se inscribe por separado. Si ya tienes un equipo formado, pueden participar juntos. Sin embargo, si no tienes un equipo, ¡no te preocupes! Al inicio del hackathon, se crearán espacios para que puedas conformar un equipo con otras personas. Esta es una excelente oportunidad para conocer a otros estudiantes de toda América Latina y colaborar en la resolución de retos interesantes. ¡Inscríbete y prepárate para una experiencia enriquecedora y colaborativa!"
+        content: "No es necesario tener un equipo para participar en CoAfina 2025. Cada participante se inscribe por separado. Si ya tienes un equipo formado, pueden participar juntos. Sin embargo, si no tienes un equipo, ¡no te preocupes! Al inicio del hackathon, se crearán espacios para que puedas conformar un equipo con otras personas. Esta es una excelente oportunidad para conocer a otros estudiantes de toda América Latina y colaborar en la resolución de retos interesantes. ¡Inscríbete y prepárate para una experiencia enriquecedora y colaborativa!. Los equipos multidisciplinarios son especialmente valiosos: cada integrante aporta desde su área de conocimiento, y juntos pueden construir soluciones más creativas, completas y con mayor impacto."
       }
     ]
   ],
