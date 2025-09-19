@@ -1,4 +1,4 @@
-import headtop from "./Assets/fase2.png";
+import headtop from "./Assets/banner.png";
 
 // Sponsors
 import cedia from "./Assets/sponsorsLogos/cedia.png";
