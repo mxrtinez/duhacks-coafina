@@ -168,26 +168,7 @@ export default function HomePage(props) {
           </Col>
         </Row>
 
-        <h1 id="faqs">FAQs</h1>
-        {/* ********Frequently asked Questions here ***** */}
-        <div className="Myfaqs">
-          {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          {/* ********Frequently asked Questions ending here ***** */}
-        </div>
-
-        {/*Theme Section*/}
-        <Row className="prizesection non-coding" id="themes">
-          <PrizeHeading type="Temáticas del Hackathon" />
-          <ThemeType />
-        </Row>
-
-         {/*TimeLine Section*/}
-         <Row className="timeline" id="timeline">
-        <PrizeHeading type="Calendario CoAfina"/>
-          <TimeLine />
-        </Row>
-   
-        <Row className="prizesection" id="prizes">
+      <Row className="prizesection" id="prizes">
           <PrizeHeading type="Premios" />
         </Row>
         <div class="row1-container">
@@ -212,7 +193,27 @@ export default function HomePage(props) {
           <h2>Mención especial</h2><img class="imgright" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="" />
           <p><b>Premio</b>: USD 150 <br /> </p>
         </div>
-      </div>
+      </div>  
+
+        <h1 id="faqs">FAQs</h1>
+        {/* ********Frequently asked Questions here ***** */}
+        <div className="Myfaqs">
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          {/* ********Frequently asked Questions ending here ***** */}
+        </div>
+
+        {/*Theme Section*/}
+        <Row className="prizesection non-coding" id="themes">
+          <PrizeHeading type="Temáticas del Hackathon" />
+          <ThemeType />
+        </Row>
+
+         {/*TimeLine Section*/}
+         <Row className="timeline" id="timeline">
+        <PrizeHeading type="Calendario CoAfina"/>
+          <TimeLine />
+        </Row>
+  
       {/* 
         <div class="row1-container margfromsponsor">
           <div class="box box-down color2">

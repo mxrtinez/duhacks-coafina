@@ -76,7 +76,7 @@ function TimeLine() {
     </div>
     <div class="row row-1">
       <section>
-        <i class="icon fas fa-paper-plane"></i>
+        <i class="icon fas fa-rocket"></i>
         <div class="details">
           <span class="title">Inicio del Hackathon</span>
           <span>7 de noviembre</span>
@@ -87,9 +87,9 @@ function TimeLine() {
     </div>
     <div class="row row-2">
       <section>
-        <i class="icon fas fa-paper-plane"></i>
+        <i class="icon fas fa-globe"></i>
         <div class="details">
-          <span class="title">Conferencia 1</span>
+          <span class="title">Charla 1</span>
           <span>8 de noviembre</span>
         </div>
         <p className="timeline_text" style={{fontSize: "14px"}}></p>
@@ -98,10 +98,10 @@ function TimeLine() {
     </div>
     <div class="row row-1">
       <section>
-        <i class="icon fas fa-paper-plane"></i>
+        <i class="icon fas fa-globe"></i>
         <div class="details">
-          <span class="title">Visita Atlas</span>
-          <span>8 de noviembre</span>
+          <span class="title">Visita Synchrocyclotron CERN</span>
+          <span>7 de noviembre</span>
         </div>
         <p className="timeline_text" style={{fontSize: "14px"}}></p>
         
@@ -109,9 +109,9 @@ function TimeLine() {
     </div>
         <div class="row row-2">
       <section>
-        <i class="icon fas fa-paper-plane"></i>
+        <i class="icon fas fa-globe"></i>
         <div class="details">
-          <span class="title">Conferencia 2</span>
+          <span class="title">Charla 2</span>
           <span>9 de noviembre</span>
         </div>
         <p className="timeline_text" style={{fontSize: "14px"}}></p>

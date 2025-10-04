@@ -77,9 +77,9 @@ function Myinfo() {
         </button>
       </a></p>
       <br />
-      <p className="shortjoin">Presenta tu reto 👉🏻  
+      <p className="shortjoin">Inscríbete aquí 👉🏻  
       <a
-        href="https://forms.gle/CMwwqhVR52RAx8Z97"
+        href="https://tinyurl.com/coafina"
         rel="noreferrer"
         target="_blank"
       > 

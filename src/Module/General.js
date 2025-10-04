@@ -361,34 +361,34 @@ const frequentlyAskedQuestions = [
       {
         label: "¿Cómo puedo proponer un reto",
         content:
-          'Convocamos a personas vinculadas a empresas, organizaciones, redes profesionales, fundaciones, universidades, y grupos de investigación para que presenten problemas con impacto en América Latina y que puedan resolverse haciendo uso de datos abiertos, en los siguientes temas: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. Si tienes en mente retos con datos abiertos en los temas que convocamos, no dudes en contactarnos: es probable que un ambiente colaborativo y entusiasta te ayude a encontrar solución. Conoce los retos presentados en la edición 2024 e inspírate para proponer tu reto: https://laconga.redclara.net/hackathon/retos'
+          'Si formas parte de una organización, red profesional, universidad o grupo de investigación, puedes presentar un reto con impacto en América Latina que se aborde mediante datos abiertos. Los temas incluyen ciencias y datos abiertos, tecnologías emergentes, inclusión digital, sostenibilidad y cultura colaborativa. Para participar como persona retadora, es imprescindible completar el formulario oficial. Tu propuesta puede convertirse en una solución colaborativa con impacto real. ¡Esperamos tu reto! Conoce los retos presentados en la edición 2024 e inspírate para proponer tu reto: https://laconga.redclara.net/hackathon/retos'
       },
       {
         label: "¿Cuándo será CoAfina",
-        content: "La cuarta edición de CoAfina será del 7 al 9 de noviembre. Durante estos tres días los equipos participantes aceptarán resolver retos específicos. El evento será de forma remota. Durante el encuentro ofreceremos nuestros contenidos síncronos para su visualización asíncrona, dado que la calidad del internet varía en la región. El último día, cada equipo presentará su solución a un grupo de jurados interdisciplinarios."
+        content: "El Hackathon CoAfina 2025 se desarrollará en varias fases clave: Pre-hackathon: tendrá lugar la semana del 3 de noviembre. Daremos más detalles en breve. Fase 1 – “Llamado a Retos”: estará abierta desde el 18 de agosto hasta el 30 de septiembre. Fase 2 – “Llamado a estudiantes”: se realizará del 22 de septiembre al 20 de octubre. Fase 3 – Hackathon: el evento central se llevará a cabo los días 7, 8 y 9 de noviembre, con jornadas intensivas de colaboración, innovación y aprendizaje."
       },
       {
-        label: "Temas centrales",
-        content: "El hackathon CoAfina 2025 se centra en temas de ciencia y educación, con una agenda que convoca intereses relacionados con la nueva universidad: ciencia abierta, ciencia ciudadana, iniciativas educativas, infraestructura compartida, impacto social de la ciencia. ¿Tienes ideas sobre inteligencia artificial en estos tópicos? Anímate a participar como persona retadora o como estudiante."
+        label: "¿Cuáles son los temas centrales del Hackathon CoAfina?",
+        content: "CoAfina se enfoca en desafíos vinculados a educación y ciencias en América Latina. Sus ejes centrales incluyen: Ciencias y datos abiertos, tecnologías emergentes, inclusión digital, sostenibilidad y cultura colaborativa. Si tienes ideas que además integren inteligencia artificial en estos ámbitos, puedes participar como persona retadora, proponiendo un desafío, o como estudiante, formando parte de un equipo multidisciplinario."
       },
       {
         label: "¿Qué encontrarás en CoAfina",
-        content: "En CoAfina podrás asistir a charlas sobre temas asociados a los retos, podrás realizar visitas virtuales a grandes laboratorios internacionales, te encontrarás con un mundo de posibilidades con datos abiertos y vivirás un ambiente multicultural y colaborativo."
+        content: "Charlas inspiradoras, visitas virtuales a laboratorios internacionales, acceso a datos abiertos y un ambiente multicultural donde la colaboración es protagonista. ¡Una experiencia para aprender, conectar y crear!"
       }
     ],
     [
       {
         label: "¿Quiénes pueden participar?",
-        content: "En este espacio convocamos, en una primera fase, a personas y organizaciones a proponer retos; y en una segunda fase convocamos a estudiantes universitarios a resolver los retos planteados. Fase 1: si en tu organización o grupo tienes ideas que puedan ser resueltas con datos abiertos, participa como retador/a. Hemos recibido retos relacionados con clima, enseñanza, ciudadanía y democracia, salud, turismo, entre algunos. Fase 2: si eres estudiante (pregrado, maestría, doctorado u otro programa) de alguna universidad con sede en América Latina ¡ya puedes unirte a CoAfina! Espera la convocatoria y revisa si tus inquietudes y conocimientos te permiten formar un equipo para resolver cualquiera de los retos planteados. Disponte a crear comunidad y marca en tu calendario una semana de adrenalina."
+        content: "Pueden participar tanto personas retadoras como estudiantes universitarios: Si formas parte de una organización, empresa, redes profesionales, fundaciones, universidades o grupos de investigación con ideas que puedan resolverse mediante datos abiertos, puedes participar proponiendo un reto. Si eres estudiante de pregrado, maestría, doctorado u otro programa en una universidad con sede en América Latina, puedes sumarte como participante."
       },
       {
         label: "¿Necesitas apoyo para participar?",
-        content: "CoAfina reconoce las condiciones desiguales de nuestra región para participar en este tipo de iniciativas: limitaciones de conexión, gastos operativos para estar disponible durante tres días en el hackathon, estudiantes madres o padres que no tienen con quién dejar a sus hijos al cuidado de otros mientras ocurre este espacio, u otras dificultades logísticas. Queremos que participes. Por esto, hemos dispuesto un fondo para subsidiar ítems que faciliten tu estancia virtual en CoAfina 2025. Si tienes algún problema (operativo, técnico, logístico), cuéntanos en el formulario y participa de nuestro subsidio."
+        content: "En CoAfina entendemos que las condiciones para participar pueden variar: acceso limitado a conexión, responsabilidades familiares, o dificultades logísticas, económicas y técnicas. Queremos que todas las personas interesadas puedan sumarse.Por eso, hemos habilitado un fondo de apoyo para cubrir gastos que faciliten tu participación virtual. Si enfrentas alguna limitación, compártelo en el formulario de inscripción y postula al subsidio. Tu presencia en CoAfina importa. ¡Queremos que participes!"
       }
       ,
       {
-        label: "¿Necesitas equipo para participar?",
-        content: "No es necesario tener un equipo para participar en CoAfina 2025. Cada participante se inscribe por separado. Si ya tienes un equipo formado, pueden participar juntos. Sin embargo, si no tienes un equipo, ¡no te preocupes! Al inicio del hackathon, se crearán espacios para que puedas conformar un equipo con otras personas. Esta es una excelente oportunidad para conocer a otros estudiantes de toda América Latina y colaborar en la resolución de retos interesantes. ¡Inscríbete y prepárate para una experiencia enriquecedora y colaborativa!. Los equipos multidisciplinarios son especialmente valiosos: cada integrante aporta desde su área de conocimiento, y juntos pueden construir soluciones más creativas, completas y con mayor impacto."
+        label: "¿Puedo participar aunque no tenga equipo?",
+        content: "¡Sí! En CoAfina cada persona se inscribe de forma individual. Si ya tienes un equipo, pueden participar juntos. Y si no, no te preocupes: al inicio del hackathon se habilitarán espacios para que formes equipo con otras personas. Es una gran oportunidad para conectar con estudiantes de toda América Latina y colaborar en la resolución de retos. Los equipos multidisciplinarios son especialmente valiosos: cada integrante aporta desde su área de conocimiento, y juntos pueden crear soluciones más completas, creativas y con impacto social. ¡Inscríbete y prepárate para una experiencia colaborativa y transformadora!"
       }
     ]
   ],
