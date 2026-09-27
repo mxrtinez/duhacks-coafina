@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
         <div class="bottom-details">
           <div class="bottom_text">
-            <span class="copyright_text">2025 CoAfina</span>
+            <span class="copyright_text">2026 CoAfina</span>
             <span class="policy_terms">
               Hecho con ❤️ Basado en el tema DUHACKS
             </span>

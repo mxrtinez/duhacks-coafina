@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
 nav {
   list-style-type: none;
   height: 11vh;
@@ -9,9 +10,10 @@ nav {
   width: 100%;
   z-index: 10;
   transition: 0.4s;
- 
+
   img {
     z-index: 1000000;
+
     &:hover {
       cursor: pointer;
     }
@@ -27,16 +29,20 @@ nav {
   margin-left: -18vw;
   margin-top: -0vw;
 }
- .padd{
-   padding-left: 10vw;
- }
+
+.padd {
+  padding-left: 10vw;
+}
+
 .s-open,
 .s-close {
   display: none;
 }
+
 .nav-inner {
   width: 30%;
 }
+
 .ulnav {
   width: 80vw;
   margin-top: -2%;
@@ -50,45 +56,52 @@ nav {
 .list--general {
   padding: 20px;
 }
-.headerlogo_container{
+
+.headerlogo_container {
   margin-right: 0.1rem;
 }
+
 .nav_bar .ulnav .liw {
   display: inline-block;
 }
+
 .links {
   color: rgb(231, 228, 228);
   transition: 0.5s;
   font-weight: 400;
   letter-spacing: 1.3px;
 }
+
 .links:hover {
   color: rgb(184, 180, 180);
 }
+
 a:link {
   text-decoration: none;
   padding: 1px;
 }
-.logi_none{
+
+.logi_none {
   display: none;
 }
 
 @media (max-width: 953px) {
-   .padd{
-   padding-left: 20vw;
- }
+  .padd {
+    padding-left: 20vw;
+  }
 }
 
-.percentlogomain{
-  width: 50%;
-  height: 50%;
+.percentlogomain {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
 }
 
 @media (max-width: 712px) {
-  
-  .percentlogomain{
-  width: 90px;
-  height: 90px;
+
+  .percentlogomain {
+    width: 90px;
+    height: auto;
   }
 
   .ease {
@@ -97,13 +110,16 @@ a:link {
     opacity: 0.2;
     pointer-events: none;
   }
+
   .header_logo {
     padding: 0vw 1vw 1vw 1vw;
   }
+
   .ulnav {
     flex-direction: column;
     padding: 30px 20;
   }
+
   .s-open {
     display: inline;
     position: absolute;
@@ -111,16 +127,18 @@ a:link {
     top: 4vw;
     z-index: -1;
   }
+
   .s-close {
     display: block;
     position: absolute;
     right: 4vw;
     top: 7.9vw;
   }
-.logi_none{
-  display: inline;
-  padding: 20vw 10vw 100vw 23vw;
-}
+
+  .logi_none {
+    display: inline;
+    padding: 20vw 10vw 100vw 23vw;
+  }
 
 }
 
@@ -130,6 +148,7 @@ a:link {
     right: 5vw;
     top: 6.7vw;
   }
+
   .s-close {
     right: 5.7vw;
     top: 7.9vw;

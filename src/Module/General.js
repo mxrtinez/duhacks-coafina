@@ -7,6 +7,7 @@ import elbongo from "./Assets/sponsorsLogos/elbongo.png";
 import ssi from "./Assets/sponsorsLogos/ssi.png";
 import ccven from "./Assets/sponsorsLogos/ccven.png";
 import inait from "./Assets/sponsorsLogos/inait.png";
+import wikipedia from "./Assets/sponsorsLogos/wikipedia.png";
 
 // Team
 import me from "./Assets/teami/Vashishth_Patel.jpg";
@@ -23,8 +24,8 @@ import iskya from "./Assets/teami/iskya.png";
 import oscar from "./Assets/teami/oscar.png";
 
 const TOP_SECTION = {
-  TITLE: "CoAfina 2025",
-  Typed_effect: ["Del 7 al 9 de noviembre", "36 horas de creación", "¡Volvemos a sonar juntos!", "Retos de ciencia y educación"],
+  TITLE: "CoAfina 2026",
+  Typed_effect: ["Del 27 al 29 de noviembre", "36 horas de creación", "¡Volvemos a sonar juntos!", "Retos de ciencia y educación"],
   SHORT_DESCRIPTION:
     "¡Convirtamos datos abiertos en soluciones brillantes! Anímense a proponer y resolver retos científicos y educativos que transformen realidades.",
   IMG_SRC: headtop,
@@ -72,8 +73,8 @@ const FOOTER = {
 };
 
 const calenderStartingDate = {
-  month: 18,
-  year: 2025
+  month: 11,
+  year: 2026
 }
 
 
@@ -203,7 +204,7 @@ const TeamInfo = [
   [
     // Array 2
     {
-      Name: "Dennis Cazar",
+      Name: "Diego Salcedo",
       role: "Organización",
       github: "",
       linkedin: "",
@@ -247,16 +248,6 @@ const TeamInfo = [
       linkedin: "",
       img: reina
     },
-  ],
-  [
-    // Array 2
-    {
-      Name: "Ysabel Briceño",
-      role: "Organización",
-      github: "",
-      linkedin: "",
-      img: ysa
-    }
   ]
 ];
 
@@ -305,34 +296,34 @@ const JudgesInfo = [
 ];
 
 const sponsorLogos = [
-   [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
-   [{ src: ssi }, { src: ccven }, { src: cedia }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
+  [{ src: ssi }, { src: ccven }, { src: wikipedia }] //Array 2
+  // { src: cedia }
+  //[{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
 ];
 
 const titlesponsorLogos = [
-   [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
-   [{ src: ssi }, { src: ccven }, { src: cedia }], //Array 2
+  [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
+  [{ src: ssi }, { src: ccven }] //Array 2 , { src: cedia }
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
 //const goldsponsorLogos = [
-  // [  ], //Array 1
-  //[{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+// [  ], //Array 1
+//[{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+// [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+// [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
 //];
 
 ////const silversponsorLogos = [
 //  [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }], //Array 1
 //  [{ src: alan, link: "https://alan.app/" }, { src: shivam, link: "#" }],
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+// [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+// [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+// [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
 //];
 
@@ -340,9 +331,9 @@ const titlesponsorLogos = [
 //  [{ src: replit, link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
 //  [{ src: koii, link: "https://www.koii.network/" }, { src: postman, link: "https://postman.com/" }, {src: prayosys, link: "https://prayosys.com/"}],
 //  [{src: shivalika, link: "#"}, {src: cuvette, link: "https://www.cuvette.tech/"}],
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+// [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+// [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+// [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
 //];
 
@@ -361,11 +352,11 @@ const frequentlyAskedQuestions = [
       {
         label: "¿Cómo puedo proponer un reto",
         content:
-          'Si formas parte de una organización, red profesional, universidad o grupo de investigación, puedes presentar un reto con impacto en América Latina que se aborde mediante datos abiertos. Los temas incluyen ciencias y datos abiertos, tecnologías emergentes, inclusión digital, sostenibilidad y cultura colaborativa. Para participar como persona retadora, es imprescindible completar el formulario oficial. Tu propuesta puede convertirse en una solución colaborativa con impacto real. ¡Esperamos tu reto! Conoce los retos presentados en la edición 2024 e inspírate para proponer tu reto: https://laconga.redclara.net/hackathon/retos'
+          'Si formas parte de una organización, red profesional, universidad o grupo de investigación, puedes presentar un reto con impacto en América Latina que se aborde mediante datos abiertos. Los temas incluyen ciencias y datos abiertos, tecnologías emergentes, inclusión digital, sostenibilidad y cultura colaborativa. Para participar como persona retadora, es imprescindible completar el formulario oficial. Tu propuesta puede convertirse en una solución colaborativa con impacto real. ¡Esperamos tu reto! Conoce los retos presentados en la edición 2025 e inspírate para proponer tu reto: https://laconga.redclara.net/hackathon/retos'
       },
       {
         label: "¿Cuándo será CoAfina",
-        content: "El Hackathon CoAfina 2025 se desarrollará en varias fases clave: Pre-hackathon: tendrá lugar la semana del 3 de noviembre. Daremos más detalles en breve. Fase 1 – “Llamado a Retos”: estará abierta desde el 18 de agosto hasta el 30 de septiembre. Fase 2 – “Llamado a estudiantes”: se realizará del 22 de septiembre al 20 de octubre. Fase 3 – Hackathon: el evento central se llevará a cabo los días 7, 8 y 9 de noviembre, con jornadas intensivas de colaboración, innovación y aprendizaje."
+        content: "El Hackathon CoAfina 2026 (quinta edición) se desarrollará en varias fases clave: Fase 1 – “Llamado a Retos”: estará abierta desde el 27 de septiembre al 31 de octubre. Fase 2 – “Llamado a participantes”: se realizará del 11 de octubre al 14 de noviembre. Pre-hackathon (Workshop): tendrá lugar el 23 de noviembre. Fase 3 – Hackathon: el evento central se llevará a cabo los días 27, 28 y 29 de noviembre, con jornadas intensivas de colaboración, innovación y aprendizaje."
       },
       {
         label: "¿Cuáles son los temas centrales del Hackathon CoAfina?",
