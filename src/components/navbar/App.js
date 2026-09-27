@@ -126,10 +126,14 @@ const NAVBAR = () => {
                   <span className="links">Equipo</span>{" "}
                 </Link>
               </li>
-             <li className="liw list--general">
-                <Link to={`#faqs`}>
-                  <span className="links">Archivo</span>{" "}
-                </Link>
+              <li className="liw list--general dropdown">
+                <span className="links" style={{cursor: "pointer"}}>Archivo ▾</span>
+                <div className="dropdown-content">
+                  <a href="https://laconga.redclara.net/hackathon/2022">2022</a>
+                  <a href="https://laconga.redclara.net/hackathon/2023">2023</a>
+                  <a href="https://laconga.redclara.net/hackathon/2024">2024</a>
+                  <a href="https://laconga.redclara.net/hackathon/2025">2025</a>
+                </div>
               </li>
               <img
                 alt="img"

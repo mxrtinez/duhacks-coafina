@@ -103,9 +103,9 @@ align-items: center;
 
 .logoSection {
   text-align: center;
-  padding: 20vh 10vh 0 10vh;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  padding: 10vh 10vh 0 10vh;
+  margin-top: 1.5vh;
+  margin-bottom: 0vh;
 }
 
 .members {
@@ -116,9 +116,9 @@ align-items: center;
   text-align: center;
   /* margin: 0 auto; */
   /* padding: 0 4vh 0 4vh; */
-  padding: 8vh 14vh 4vh 14vh;
+  padding: 4vh 14vh 4vh 14vh;
   /* border-radius: 14px; */
-  margin-top: 6vh;
+  margin-top: 3vh;
   /* background-color:; */
 }
 
@@ -172,7 +172,7 @@ align-items: center;
 
   .logoSection {
     text-align: center;
-    padding: 20vh 0vh 0 0vh;
+    padding: 10vh 0vh 0 0vh;
   }
 }
 

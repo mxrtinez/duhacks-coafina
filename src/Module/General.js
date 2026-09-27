@@ -7,7 +7,7 @@ import elbongo from "./Assets/sponsorsLogos/elbongo.png";
 import ssi from "./Assets/sponsorsLogos/ssi.png";
 import ccven from "./Assets/sponsorsLogos/ccven.png";
 import inait from "./Assets/sponsorsLogos/inait.png";
-import wikipedia from "./Assets/sponsorsLogos/wikipedia.png";
+import wikimedia from "./Assets/sponsorsLogos/wikimedia.png";
 
 // Team
 import me from "./Assets/teami/Vashishth_Patel.jpg";
@@ -297,7 +297,7 @@ const JudgesInfo = [
 
 const sponsorLogos = [
   [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
-  [{ src: ssi }, { src: ccven }, { src: wikipedia }] //Array 2
+  [{ src: ssi }, { src: ccven }, { src: wikimedia }] //Array 2
   // { src: cedia }
   //[{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -305,7 +305,7 @@ const sponsorLogos = [
 
 const titlesponsorLogos = [
   [{ src: elbongo }, { src: redclara }, { src: inait }], //Array 1
-  [{ src: ssi }, { src: ccven }] //Array 2 , { src: cedia }
+  [{ src: ssi }, { src: ccven }, { src: wikimedia }] //Array 2 , { src: cedia }
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
