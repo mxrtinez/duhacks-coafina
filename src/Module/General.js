@@ -183,7 +183,7 @@ const TeamInfo = [
       Name: "Alexander Martinez",
       role: "Organización",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/mxrtinez/",
       img: alex
     },
     {
@@ -197,7 +197,7 @@ const TeamInfo = [
       Name: "Arturo Sánchez",
       role: "Organización",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/arturo-sanchez-pineda/",
       img: arturo
     }
   ],
@@ -214,14 +214,14 @@ const TeamInfo = [
       Name: "Estefanía Sánchez",
       role: "Organización",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/estefan%C3%ADa-s%C3%A1nchez-pineda/",
       img: estefania
     },
     {
       Name: "Iskya García",
       role: "Organización",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/iskya-garc%C3%ADa-09454711b/",
       img: iskya
     },
   ],
@@ -231,21 +231,21 @@ const TeamInfo = [
       Name: "José Antonio López",
       role: "Organización",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/jalccs/",
       img: jal
     },
     {
       Name: "Oscar Altuve",
       role: "Organización",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/altuos/",
       img: oscar
     },
     {
       Name: "Reina Camacho",
       role: "Organización",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/reina-camacho-toro-ph-d-b3279762/",
       img: reina
     },
   ]

@@ -27,5 +27,5 @@ docker run -it --rm \
 ## Sync changes
 
 ```
-rsync -avh build/* laconga@laconga.redclara.net:~/build/
+rsync -avh build/* user@server:~/build/
 ```
