@@ -41,6 +41,33 @@
   width: 10%;
 }
 
+.reto-button {
+  align-items: center;
+  background: linear-gradient(90deg, #ff007a, #7928ca);
+  border-radius: 8px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 1.8rem;
+  font-weight: 600;
+  height: 60px;
+  justify-content: center;
+  outline: none;
+  padding: 0 32px;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 0, 122, 0.4);
+}
+
+.reto-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 0, 122, 0.6);
+  color: white;
+}
+
 /* .dis-button {
   align-items: center;
   background-color: #7289da;
