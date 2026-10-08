@@ -28,7 +28,7 @@ function ThemeType(props) {
                     </div>
                     <div class="card_item">
                         <div class="card_inner">
-                            <img src={process.env.PUBLIC_URL + "/images/inclusiondigital.gif"} /><br /><br />
+                            <img src={process.env.PUBLIC_URL + "/images/web31.jpg"} /><br /><br />
                             <div class="role_name">Inclusión Digital</div>
 
                             {/* <div class="film">Web 3.0 is the third generation of internet services for websites and apps that will focus on providing a data-driven and Semantic Web employing a machine-based understanding of data.</div>*/}
@@ -53,7 +53,7 @@ function ThemeType(props) {
                     </div>
                     <div class="card_item">
                         <div class="card_inner">
-                            <img src={process.env.PUBLIC_URL + "/images/cooperation.gif"} /><br /><br />
+                            <img src={process.env.PUBLIC_URL + "/images/open_inno1.png"} /><br /><br />
                             <div class="role_name">Cultura Colaborativa</div>
 
                             {/*<div class="film">AI is the intelligence demonstrated by computers as a result of their perception of their surroundings. Al-based devices are capable of taking independent actions in order to achieve a specific goal.</div>*/}
